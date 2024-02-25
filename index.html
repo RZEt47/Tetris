@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Тетрис</title>
+<style>
+table {
+	margin: 0 auto;
+}
+
+td {
+	vertical-align: top;
+}
+</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>
+				<ul id="status1">
+					<li>Счет: <span data-role="scope">0</span></li>
+					<li>Уровень: <span data-role="level">1</span></li>
+					<li>Тетрисов: <span data-role="tetris">0</span></li>
+				</ul>
+			</td>
+			<td>
+				<canvas id="canvas1">Ваш браузер не поддерживает canvas.</canvas>
+			</td>
+			<td>
+				<canvas id="canvas2">Ваш браузер не поддерживает canvas.</canvas>
+			</td>
+			<td>
+				<ul id="status2">
+					<li>Счет: <span data-role="scope">0</span></li>
+					<li>Уровень: <span data-role="level">1</span></li>
+					<li>Тетрисов: <span data-role="tetris">0</span></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<script src="./script.js"></script>
+</body>
+</html>
